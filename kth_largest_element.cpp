@@ -42,3 +42,35 @@ void print(vector<int> result) {
         cout << x << " ";
     }
 }
+
+//By sorting.
+
+// vector<int> Solution::solve(vector<int> &A, int B) {
+//     sort(A.rbegin(), A.rend());
+//     vector<int> re;
+
+//     for (int i = 0; i < B; i++) {
+//         re.push_back(A[i]);
+//     }
+
+//     return re;
+// }
+
+
+// Using Priority_Queue
+// vector<int> Solution::solve(vector<int> &A, int B) {
+//     priority_queue<int> qu;
+//     vector<int> re;
+
+//     for ( auto x : A) {
+//         qu.push(x);
+//     }
+
+//     while (B) {
+//         re.push_back(qu.top());
+//         qu.pop();
+//         B--;
+//     }
+
+//     return re;
+// }
