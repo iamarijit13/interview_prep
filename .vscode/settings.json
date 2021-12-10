@@ -6,5 +6,6 @@
         "vector": "cpp",
         "list": "cpp",
         "iosfwd": "cpp"
-    }
+    },
+    "C_Cpp.dimInactiveRegions": false
 }
